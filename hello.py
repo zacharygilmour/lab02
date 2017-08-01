@@ -1,3 +1,15 @@
 print("Hello, git!")
+def fizzbuzz():
 
-print ['Fizz'*(i%3<1)+'Buzz'*(i%5<1) or i for i in range(1,101)]
+    for num in range(1, 101):
+        if num % 15 == 0:
+            print("FizzBuzz")
+        elif num % 5 == 0:
+            print("Buzz")
+        elif num % 3 == 0:
+            print("Fizz")
+        else :
+            print(num)
+        
+        
+fizzbuzz()
